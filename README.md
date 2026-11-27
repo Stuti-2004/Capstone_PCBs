@@ -20,17 +20,3 @@ KiCad project for the capstone load cell PCB. The design is split into hierarchi
 | `nRF_Module.kicad_sch` | nRF wireless microcontroller module |
 | `Display, RTC, thermistor.kicad_sch` | Display, real-time clock and temperature sensing |
 | `Initial_LoadCell_Circuit.kicad_prl` | Local view settings (not part of the design) |
-
-## Status
-
-- [x] Schematic, first pass
-- [ ] Electrical Rules Check (ERC) clean
-- [ ] PCB layout
-- [ ] Design Rules Check (DRC) clean
-- [ ] Gerbers and BOM exported for fabrication
-
-## Contributing
-
-- Work on a branch, not directly on `main`.
-- Run ERC (and DRC for PCB changes) before you commit.
-- Don't commit KiCad backup or cache files: `*-backups/`, `.history/`, `*.lck`, `fp-info-cache`.
